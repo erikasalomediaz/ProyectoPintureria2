@@ -1,0 +1,60 @@
+@media (max-width:700px) {
+	.comerciopadre {
+		grid-template-areas: "com1" "com2" "com3" "com4" "com5" "com6" "com7";
+		gap: 10%, 10%;
+	}
+	.nav-item {
+		background: linear-gradient(#fff, #ccc);
+		opacity: 70%;
+		text-align: center;
+	}
+	.limenu {
+		color: $color_1;
+		transition: height 0, 5s, width 0, 10s;
+		transition: all, 3s;
+	}
+	.banner {
+		height: 50vh;
+	}
+	.mainpadre {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.videos {
+		overflow: scroll;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+@media (min-width:701px) and (max-width:999px) {
+	.comerciopadre {
+		grid-template-areas: "com1 com2" "com3 com4" "com5 com6" "com7     ";
+		gap: 10%, 10%;
+	}
+	.nav-item {
+		background: linear-gradient(#fff, #ccc);
+		opacity: 70%;
+		text-align: center;
+	}
+	.limenu {
+		color: $color_1;
+		transition: height 0, 5s, width 0, 10s;
+		transition: all, 3s;
+	}
+	.banner {
+		height: 50vh;
+	}
+	.mainpadre {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.videos {
+		overflow: scroll;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}

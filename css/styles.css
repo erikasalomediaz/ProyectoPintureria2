@@ -1,322 +1,326 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.panel{
-    border: 6px #e7e9fc solid; 
-    box-sizing: border-box;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-
-}
-h4{
-    color: #9fbbe0;
-    font-weight: bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    /* background-color: #e7e9fc; */
-    background-color: #f1f3f7;
-   /* background-color:rgb(235, 226, 232);   #d11c9e;*/
-   display: flex;
-   flex-direction: column;
-}
-.banner{
-    height:70vh;
-    background-image: url(../images/plazademayo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;}
-
-
-header{
-    background-color: #e636ce;
-    position: fixed;
-    margin-top: 12px;
-    width: 100%;
-    z-index: 1;
-
+h1 {
+  color: white;
+  background-color: #9fbbe0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.navbar1{
-    height:15vh;
-
-}
-.boton{
-    border: #B1B7D1 solid 1px;
-    background-color: #d7d3d8;
-    margin: 5px;
-}
-.boton:hover{
-        background-color: #9fbbe0;
-        color: white;
+h2 {
+  color: #fff;
 }
 
-.mainpadre{
-    display: flex;
-    flex-wrap: wrap;
-    Justify-content:space-around;
-    row-gap: 30px ;
-
-}
-.card1{
-    width: 350px;
-
-}
-
-
-
-
-footer {
-   /* background-color: rgb(252, 225, 245);*/
-    /* background-color:rgb(235, 226, 232); */
-    background-color: #9fbbe0; 
-    margin: 5px 6px;
-    padding: 3px;
-    margin: 5px 10px 5px 10px;
-    padding: 2px;
-}
-
-
-.textoLogo {
-    display: inline;
-    vertical-align: middle;
-    color: rgb(84, 84, 175);
-
-}
-.flexsearchform {
-    align-items: right;
-    text-align: right;
-    padding: 5px 5px;
-}
-
-.ulmenu {
-    /* text-align: right; */
-    background: rgba(0, 0, 0, .5);
-}
-
-
-.limenu {
-    list-style-type: bolder;
-    text-transform: uppercase;
-    display: inline-block;
-    font-weight: bold;
-    width: 120px;
-    padding-bottom: 3px;
-    color: #fff;
-}
-
-
-a {
-    text-decoration:dotted;
-    color: #fff;
-    line-height: 40px;
-    font-weight:bolder;
-
+h4 {
+  color: #9fbbe0;
+  font-weight: bold;
 }
 
 .font {
-    font-weight: 300;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Roboto', sans-serif;
-
+  font-weight: 300;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.fondo {
-    background-image: url(../images/bsas2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+body {
+  background-color: #f1f3f7;
+  display: flex;
+  flex-direction: column;
 }
 
-
-
-.contenedor {
-    border: 1px #B1B7D1 solid;
-    margin: 10px;
-    padding: 8px;
+.panel {
+  border: 6px #e7e9fc solid;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
-.contenedor p{
-    margin: 10px;
-    padding: 8px;
+header {
+  background-color: #e636ce;
+  position: fixed;
+  margin-top: 12px;
+  width: 100%;
+  z-index: 1;
 }
 
-
-/* IMAGENES    */
-.logoinsta {
-    width: 50px;
-    vertical-align: middle;
-
+.boton {
+  border: #B1B7D1 solid 1px;
+  background-color: #d7d3d8;
+  margin: 5px;
+}
+.boton:hover {
+  background-color: #9fbbe0;
+  color: white;
 }
 
-.logoface {
-    width: 30px;
-    bottom: 10px;
-    right: 10px;
-    vertical-align: middle;
+.ulmenu {
+  background: rgba(0, 0, 0, 0.5);
+}
 
+.limenu {
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  width: 120px;
+  padding-bottom: 3px;
+  color: #fff;
+}
+
+a {
+  text-decoration: dotted;
+  color: #fff;
+  line-height: 40px;
+  font-weight: bolder;
 }
 
 .logoMuni {
-    width: 60px;
-    top: 30px;
-    right: 80px;
-    vertical-align: middle;
+  width: 60px;
+  top: 30px;
+  right: 80px;
+  vertical-align: middle;
 }
 
-.organigrama{
-    width: 60%;
+.navhambur {
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
 }
 
+.banner {
+  height: 70vh;
+  background-image: url(../images/plazademayo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainpadre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 30px;
+}
+
+.card1 {
+  width: 350px;
+}
+
+.contenedor {
+  border: 1px #B1B7D1 solid;
+  margin: 10px;
+  padding: 8px;
+}
+.contenedor p {
+  margin: 10px;
+  padding: 8px;
+}
+
+.organigrama {
+  width: 60%;
+}
 
 .padreorganigrama {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-/* IMAGENES  FIN  */
-
-h1{
-    color: rgb(243, 245, 241);
-    /* background-color: #83c5be; */
-    background-color: rgb(183, 183, 235);
-    background-color: #9fbbe0; 
-    margin-top: 10px;
-    margin-bottom: 10px;
+.tramites {
+  list-style-type: bolder;
+  text-transform: none;
+  display: inline-block;
+  font-weight: bold;
+  width: 120px;
+  padding-bottom: 30px;
 }
 
-h2{
-    color: #83c5be;
+.videos {
+  display: inline-block;
+  overflow: scroll;
 }
 
-.tramites{
-    list-style-type: bolder;
-    text-transform:none;
-    display: inline-block;
-    font-weight: bold;
-    width: 120px;
-    padding-bottom: 30px;
+.video {
+  width: 560px;
+  height: 315px;
 }
 
-
-.videos{
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 2px;
-    padding: 20px;
+.ultramites {
+  text-align: center;
+  background: rgba(241, 237, 241, 0.5);
 }
 
-.ultramites{
+.com1 {
+  grid-area: com1;
+  width: 50%;
+  width: 50%;
+}
+
+.com2 {
+  grid-area: com2;
+}
+
+.com3 {
+  grid-area: com3;
+}
+
+.com4 {
+  grid-area: com4;
+}
+
+.com5 {
+  grid-area: com5;
+}
+
+.com6 {
+  grid-area: com6;
+}
+
+.com7 {
+  grid-area: com7;
+}
+
+.comerciopadre {
+  display: grid;
+  grid-template-areas: "com1 com2 com3" "com4 com5 com6" "com7 com8 com9";
+  gap: 20px 20px;
+  overflow: hidden;
+}
+
+.comercio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid rgb(204, 200, 200);
+  border-radius: 3%;
+  margin: 5px;
+}
+
+.limenu {
+  transition: height 0, 5s, width 0, 10s;
+  transition: all, 3s;
+}
+
+.logocomerc {
+  width: 300px;
+}
+
+.claseform {
+  margin: 3px;
+  padding: 5px;
+  align-items: center;
+  text-align: left;
+}
+
+textarea {
+  width: 480px;
+  border: #a2a9c5;
+}
+
+input {
+  border: #a2a9c5;
+  padding: 5px;
+}
+
+.mapa {
+  margin-top: 60px;
+  width: auto;
+  vertical-align: middle;
+  position: relative;
+  bottom: 40px;
+}
+
+footer {
+  background-color: #9fbbe0;
+  margin: 5px 6px;
+  padding: 3px;
+  margin: 5px 10px 5px 10px;
+  padding: 2px;
+}
+
+.logoinsta {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.logoface {
+  width: 30px;
+  bottom: 10px;
+  right: 10px;
+  vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  .comerciopadre {
+    grid-template-areas: "com1" "com2" "com3" "com4" "com5" "com6" "com7";
+    gap: 10%, 10%;
+  }
+  .nav-item {
+    background: linear-gradient(#fff, #ccc);
+    opacity: 70%;
     text-align: center;
-    background: rgba(241, 237, 241, 0.5);
-}
-
-.comercio{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    background-color: #ffff;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    border: solid rgb(204, 200, 200) ;
-    border-radius: 3%;
-    margin: 05px;
-
-
-    
-}
-
-.com1{grid-area: com1;}
-.com2{grid-area: com2;}
-.com3{grid-area: com3;}
-.com4{grid-area: com4;}
-.com5{grid-area: com5;}
-.com6{grid-area: com6;}
-.com7{ grid-area: com7;}
-
-
-.comerciopadre{
-    display: grid;
-    grid-template-areas: 
-    "com1 com2 com3"
-    "com4 com5 com6"
-    "com7 com8 com9";
-    gap: 20px 20px;
-    margin-left: 40px;
-    margin-right: 20px;
-    margin-top: 2px;
-    padding: 20px;
-}
-
-
-
-@media(max-width:900px) {
-    .comerciopadre{
-        display: grid;
-        grid-template-areas: 
-        "com1"
-        "com2"
-        "com3"
-        "com4"
-        "com5" 
-        "com6"
-        "com7" ;
-        Gap: 20px, 30 px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
-     
-    }
-    
-    .banner{
-        height:50vh;
-}
-.mainpadre{
+  }
+  .limenu {
+    color: white;
+    transition: height 0, 5s, width 0, 10s;
+    transition: all, 3s;
+  }
+  .banner {
+    height: 50vh;
+  }
+  .mainpadre {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
+  }
+  .videos {
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
-}
-.logocomerc{
-  
-    width: 300px; 
-    /*  vertical-align: middle; */
-}
-
-.claseform{
-   margin: 3px;
-   padding: 5px;
-   align-items: center;
-   text-align: left;
-}
-
-textarea{
-width: 480px;
-border: #a2a9c5;
-}
-
-input{
-    border: #a2a9c5;
-    padding: 5px;
-    
-}
-.mapa{
-    margin-top: 60px;
-    width: auto;
-    vertical-align: middle;
-    position: relative;
-    bottom: 40px;
-
+@media (min-width: 701px) and (max-width: 999px) {
+  .comerciopadre {
+    grid-template-areas: "com1 com2" "com3 com4" "com5 com6" "com7     ";
+    gap: 10%, 10%;
+  }
+  .nav-item {
+    background: linear-gradient(#fff, #ccc);
+    opacity: 70%;
+    text-align: center;
+  }
+  .limenu {
+    color: white;
+    transition: height 0, 5s, width 0, 10s;
+    transition: all, 3s;
+  }
+  .banner {
+    height: 50vh;
+  }
+  .mainpadre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .videos {
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
+/*# sourceMappingURL=styles.css.map */

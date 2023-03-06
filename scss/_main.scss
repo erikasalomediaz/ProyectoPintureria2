@@ -1,0 +1,115 @@
+.mainpadre {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	row-gap: 30px;
+}
+.card1 {
+	width: 350px;
+}
+.contenedor {
+	border: 1px #B1B7D1 solid;
+	margin: 10px;
+	padding: 8px;
+	p {
+		margin: 10px;
+		padding: 8px;
+	}
+}
+.organigrama {
+	width: 60%;
+}
+.padreorganigrama {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.tramites {
+	list-style-type: bolder;
+	text-transform: none;
+	display: inline-block;
+	font-weight: bold;
+	width: 120px;
+	padding-bottom: 30px;
+}
+.videos {
+	display: inline-block;
+	overflow: scroll;
+}
+.video {
+	width: 560px;
+	height: 315px;
+}
+.ultramites {
+	text-align: center;
+	background: rgba(241, 237, 241, 0.5);
+}
+.com1 {
+	grid-area: com1;
+	width: 50%;
+	width: 50%;
+}
+.com2 {
+	grid-area: com2;
+}
+.com3 {
+	grid-area: com3;
+}
+.com4 {
+	grid-area: com4;
+}
+.com5 {
+	grid-area: com5;
+}
+.com6 {
+	grid-area: com6;
+}
+.com7 {
+	grid-area: com7;
+}
+.comerciopadre {
+	display: grid;
+	grid-template-areas: "com1 com2 com3" "com4 com5 com6" "com7 com8 com9";
+	gap: 20px 20px;
+	overflow: hidden;
+}
+.comercio {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: $color_2;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	border: solid rgb(204, 200, 200);
+	border-radius: 3%;
+	margin: 05px;
+}
+.limenu {
+	transition: height 0, 5s, width 0, 10s;
+	transition: all, 3s;
+}
+.logocomerc {
+	width: 300px;
+}
+.claseform {
+	margin: 3px;
+	padding: 5px;
+	align-items: center;
+	text-align: left;
+}
+textarea {
+	width: 480px;
+	border: #a2a9c5;
+}
+input {
+	border: #a2a9c5;
+	padding: 5px;
+}
+.mapa {
+	margin-top: 60px;
+	width: auto;
+	vertical-align: middle;
+	position: relative;
+	bottom: 40px;
+}
