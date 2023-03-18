@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: #fff;
+.divh1 {
   background-color: #21748f;
+}
+.divh1 h1 {
+  color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 55px;
   font-size: 4rem;
   font-weight: bold;
+  text-align: left;
 }
 
 h2 {
@@ -19,6 +23,10 @@ h2 {
 
 h4 {
   color: #9fbbe0;
+  font-weight: bold;
+}
+
+h5 {
   font-weight: bold;
 }
 
@@ -100,7 +108,7 @@ a {
 
 .banner {
   height: 70vh;
-  background-image: url(../images/plazademayo.jpg);
+  background-image: url(/images/plazademayo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
