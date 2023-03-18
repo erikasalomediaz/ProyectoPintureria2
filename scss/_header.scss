@@ -6,11 +6,11 @@
 	z-index: 2;
 }
 header {
-	background-color: $background-color_1;
 	position: fixed;
 	margin-top: 12px;
 	width: 100%;
 	z-index: 1;
+	background-color:$color_8;
 }
 .boton {
 	border: #B1B7D1 solid 1px;
@@ -26,11 +26,13 @@ header {
 }
 .limenu {
 	text-transform: uppercase;
-	display: inline-block;
+	display: block;
 	font-weight: bold;
-	width: 120px;
+	width: 150px;
 	padding-bottom: 3px;
-	color: $color_2;
+	color: $color_5;
+	outline: none;
+    word-wrap: break-word;
 }
 a {
 	text-decoration: dotted;

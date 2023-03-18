@@ -5,13 +5,18 @@
 	box-sizing: border-box;
 }
 h1 {
-	color: $color_1;
-	background-color: $color_3;
+	
+	color: $color_5;
+	background-color: #21748f;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-size: 4rem;
+	font-weight: bold;
+
+
 }
 h2 {
-	color: $color_2;
+	color: $color_1;
 }
 h4 {
 	color: $color_3;
@@ -19,11 +24,13 @@ h4 {
 }
 .font {
 	font-weight: 300;
-	font-family: $font-family_1;
-	font-family: $font-family_2;
+	font-family: 'Noto Serif Lao', serif;
+
+
+	
 }
 body {
-	background-color: $background-color_3;
+	background-image: $background-color_1;
 	display: flex;
 	flex-direction: column;
 }

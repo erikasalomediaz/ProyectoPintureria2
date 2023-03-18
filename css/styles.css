@@ -5,14 +5,16 @@
 }
 
 h1 {
-  color: white;
-  background-color: #9fbbe0;
+  color: #fff;
+  background-color: #21748f;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 h2 {
-  color: #fff;
+  color: #04040a;
 }
 
 h4 {
@@ -22,12 +24,11 @@ h4 {
 
 .font {
   font-weight: 300;
-  font-family: "Quicksand", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Serif Lao", serif;
 }
 
 body {
-  background-color: #f1f3f7;
+  background-image: linear-gradient(to right top, #85f6c9, #48cbc0, #229fad, #21748f, #274c67);
   display: flex;
   flex-direction: column;
 }
@@ -41,11 +42,11 @@ body {
 }
 
 header {
-  background-color: #e636ce;
   position: fixed;
   margin-top: 12px;
   width: 100%;
   z-index: 1;
+  background-color: #21748f;
 }
 
 .boton {
@@ -55,7 +56,7 @@ header {
 }
 .boton:hover {
   background-color: #9fbbe0;
-  color: white;
+  color: #04040a;
 }
 
 .ulmenu {
@@ -64,16 +65,18 @@ header {
 
 .limenu {
   text-transform: uppercase;
-  display: inline-block;
+  display: block;
   font-weight: bold;
-  width: 120px;
+  width: 150px;
   padding-bottom: 3px;
   color: #fff;
+  outline: none;
+  word-wrap: break-word;
 }
 
 a {
   text-decoration: dotted;
-  color: #fff;
+  color: #83c5be;
   line-height: 40px;
   font-weight: bolder;
 }
@@ -101,6 +104,12 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+section h1 {
+  color: red;
+  position: absolute;
 }
 
 .mainpadre {
@@ -115,13 +124,12 @@ a {
 }
 
 .contenedor {
-  border: 1px #B1B7D1 solid;
   margin: 10px;
-  padding: 8px;
+  padding: 10px;
 }
 .contenedor p {
   margin: 10px;
-  padding: 8px;
+  padding: 10px;
 }
 
 .organigrama {
@@ -204,7 +212,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   border: solid rgb(204, 200, 200);
-  border-radius: 3%;
+  border-radius: 15%;
   margin: 5px;
 }
 
@@ -243,11 +251,7 @@ input {
 }
 
 footer {
-  background-color: #9fbbe0;
-  margin: 5px 6px;
-  padding: 3px;
-  margin: 5px 10px 5px 10px;
-  padding: 2px;
+  background-color: #21748f;
 }
 
 .logoinsta {
@@ -273,7 +277,7 @@ footer {
     text-align: center;
   }
   .limenu {
-    color: white;
+    color: #04040a;
     transition: height 0, 5s, width 0, 10s;
     transition: all, 3s;
   }
@@ -303,7 +307,7 @@ footer {
     text-align: center;
   }
   .limenu {
-    color: white;
+    color: #04040a;
     transition: height 0, 5s, width 0, 10s;
     transition: all, 3s;
   }
