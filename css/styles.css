@@ -19,6 +19,10 @@
 
 h2 {
   color: #04040a;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 h4 {
