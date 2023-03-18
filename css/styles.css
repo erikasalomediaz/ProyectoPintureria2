@@ -41,6 +41,22 @@ body {
   flex-direction: column;
 }
 
+footer {
+  background-color: #21748f;
+}
+
+.logoinsta {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.logoface {
+  width: 30px;
+  bottom: 10px;
+  right: 10px;
+  vertical-align: middle;
+}
+
 .panel {
   border: 6px #e7e9fc solid;
   box-sizing: border-box;
@@ -256,22 +272,6 @@ input {
   vertical-align: middle;
   position: relative;
   bottom: 40px;
-}
-
-footer {
-  background-color: #21748f;
-}
-
-.logoinsta {
-  width: 50px;
-  vertical-align: middle;
-}
-
-.logoface {
-  width: 30px;
-  bottom: 10px;
-  right: 10px;
-  vertical-align: middle;
 }
 
 @media (max-width: 700px) {
