@@ -22,7 +22,7 @@ h2 {
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 10px;
+  margin-left: 10pz;
 }
 
 h4 {
@@ -128,7 +128,7 @@ a {
 
 .banner {
   height: 70vh;
-  background-image: url(/images/plazademayo.jpg);
+  background-image: url(../images/plazademayo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
