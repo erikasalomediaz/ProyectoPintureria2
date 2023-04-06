@@ -13,13 +13,11 @@
   margin-bottom: 10px;
   margin-left: 55px;
   font-size: 4rem;
-  font-weight: bold;
   text-align: left;
 }
 
 h2 {
   color: #04040a;
-  font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 10pz;
@@ -27,11 +25,6 @@ h2 {
 
 h4 {
   color: #21748f;
-  font-weight: bold;
-}
-
-h5 {
-  font-weight: bold;
 }
 
 .font {
@@ -186,8 +179,10 @@ section h1 {
 }
 
 .videos {
-  display: inline-block;
-  overflow: scroll;
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 30px;
+  column-gap: 30px;
 }
 
 .video {
@@ -277,17 +272,53 @@ textarea {
   border: #9fbbe0;
 }
 
-input {
-  border: #9fbbe0;
-  padding: 5px;
+.mapa {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
 
-.mapa {
-  margin-top: 60px;
-  width: auto;
-  vertical-align: middle;
-  position: relative;
-  bottom: 40px;
+.contrec {
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.form1 {
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit], input[type=reset] {
+  color: rgb(56, 51, 51);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 700px) {
@@ -315,14 +346,18 @@ input {
     justify-content: center;
   }
   .videos {
-    overflow: scroll;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .comerciopadre {
     grid-template-areas: "com1" "com2" "com3" "com4" "com5" "com6" "com7" "com8" "com9";
     align-items: center;
+  }
+  .contrec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 @media (min-width: 701px) and (max-width: 999px) {
@@ -345,11 +380,32 @@ input {
     height: 50vh;
   }
   .videos {
-    overflow: scroll;
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
   }
+  .contrec {
+    display: flex;
+    flex-direction: column;
+  }
+}
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */

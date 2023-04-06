@@ -1,0 +1,19 @@
+@mixin mixtexto{
+    font-weight: bold;
+
+}
+h1{
+    @include mixtexto
+}
+h2{
+    @include mixtexto
+}
+h3{
+    @include mixtexto
+}
+h4{
+    @include mixtexto
+}
+h5{
+    @include mixtexto
+}

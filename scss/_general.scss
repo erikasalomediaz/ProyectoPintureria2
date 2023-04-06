@@ -14,7 +14,6 @@
 		margin-bottom: 10px;
 		margin-left: 55px;
 		font-size: 4rem;
-		font-weight: bold;
 		text-align: left;
 
 	}
@@ -22,7 +21,6 @@
 
 h2 {
 	color: $color_1;
-	font-weight: bold;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 10pz;
@@ -30,12 +28,8 @@ h2 {
 
 h4 {
 	color: $color_8;
-	font-weight: bold;
 }
 
-h5 {
-	font-weight: bold;
-}
 .font {
 	font-weight: 300;
 	font-family: 'Noto Serif Lao', serif;
